@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signup</class>
+ <widget class="QDialog" name="signup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>248</width>
+    <height>331</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>:/icons/icons/icons8-sign-up-100.png</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="styleSheet">
+              <string notr="true">QLabel {
+    font-family: Arial, sans-serif; /* Set your desired font family for labels */
+    font-size: 12pt; /* Set your desired font size for labels */
+    font-weight: bold; /* Set font weight to bold if desired */
+    color: #333; /* Set your desired text color for labels */
+}</string>
+             </property>
+             <property name="text">
+              <string>Username:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="styleSheet">
+              <string notr="true">QLabel {
+    font-family: Arial, sans-serif; /* Set your desired font family for labels */
+    font-size: 12pt; /* Set your desired font size for labels */
+    font-weight: bold; /* Set font weight to bold if desired */
+    color: #333; /* Set your desired text color for labels */
+}</string>
+             </property>
+             <property name="text">
+              <string>Password:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="styleSheet">
+              <string notr="true">QLabel {
+    font-family: Arial, sans-serif; /* Set your desired font family for labels */
+    font-size: 12pt; /* Set your desired font size for labels */
+    font-weight: bold; /* Set font weight to bold if desired */
+    color: #333; /* Set your desired text color for labels */
+}</string>
+             </property>
+             <property name="text">
+              <string>Name:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLabel {
+    font-family: Arial, sans-serif; /* Set your desired font family for labels */
+    font-size: 12pt; /* Set your desired font size for labels */
+    font-weight: bold; /* Set font weight to bold if desired */
+    color: #333; /* Set your desired text color for labels */
+}</string>
+             </property>
+             <property name="text">
+              <string>Email</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="styleSheet">
+              <string notr="true">QLabel {
+    font-family: Arial, sans-serif; /* Set your desired font family for labels */
+    font-size: 12pt; /* Set your desired font size for labels */
+    font-weight: bold; /* Set font weight to bold if desired */
+    color: #333; /* Set your desired text color for labels */
+}</string>
+             </property>
+             <property name="text">
+              <string>Age</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLineEdit" name="lineEdit_user_name">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit {
+    background-color: white; /* Set your desired background color for line edits */
+    border: 2px solid #636363; /* Set your desired border color and thickness */
+    border-radius: 5px; /* Adjust this value to control the curvature */
+    padding: 5px; /* Set padding inside the line edits */
+}
+
+QLineEdit:hover {
+    border: 2px solid #a0a0a0; /* Change border color on hover */
+}
+
+QLineEdit:focus {
+    border: 2px solid #4CAF50; /* Change border color when line edit is focused */
+}
+</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_password">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit {
+    background-color: white; /* Set your desired background color for line edits */
+    border: 2px solid #636363; /* Set your desired border color and thickness */
+    border-radius: 5px; /* Adjust this value to control the curvature */
+    padding: 5px; /* Set padding inside the line edits */
+}
+
+QLineEdit:hover {
+    border: 2px solid #a0a0a0; /* Change border color on hover */
+}
+
+QLineEdit:focus {
+    border: 2px solid #4CAF50; /* Change border color when line edit is focused */
+}
+</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_name">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit {
+    background-color: white; /* Set your desired background color for line edits */
+    border: 2px solid #636363; /* Set your desired border color and thickness */
+    border-radius: 5px; /* Adjust this value to control the curvature */
+    padding: 5px; /* Set padding inside the line edits */
+}
+
+QLineEdit:hover {
+    border: 2px solid #a0a0a0; /* Change border color on hover */
+}
+
+QLineEdit:focus {
+    border: 2px solid #4CAF50; /* Change border color when line edit is focused */
+}
+</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_email">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit {
+    background-color: white; /* Set your desired background color for line edits */
+    border: 2px solid #636363; /* Set your desired border color and thickness */
+    border-radius: 5px; /* Adjust this value to control the curvature */
+    padding: 5px; /* Set padding inside the line edits */
+}
+
+QLineEdit:hover {
+    border: 2px solid #a0a0a0; /* Change border color on hover */
+}
+
+QLineEdit:focus {
+    border: 2px solid #4CAF50; /* Change border color when line edit is focused */
+}
+</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_age">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit {
+    background-color: white; /* Set your desired background color for line edits */
+    border: 2px solid #636363; /* Set your desired border color and thickness */
+    border-radius: 5px; /* Adjust this value to control the curvature */
+    padding: 5px; /* Set padding inside the line edits */
+}
+
+QLineEdit:hover {
+    border: 2px solid #a0a0a0; /* Change border color on hover */
+}
+
+QLineEdit:focus {
+    border: 2px solid #4CAF50; /* Change border color when line edit is focused */
+}
+</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QComboBox" name="comboBox_gender">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: #808080; /* Set your desired gray background color */
+    border: 2px solid #636363; /* Set your desired border color and thickness */
+    color: white; /* Set the text color */
+    padding: 10px 20px; /* Set padding around the text */
+    font-weight: bold; /* Make the font bold */
+
+    /* Set border-radius for curvature */
+    border-radius: 10px; /* Adjust this value to control the curvature */
+
+    /* Add a transition for a smooth animation */
+    transition: background-color 0.3s, border 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+/* Add a subtle box shadow for a classy look */
+QPushButton:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values for the shadow effect */
+}
+
+/* Change button appearance on hover */
+QPushButton:hover {
+    background-color: #a0a0a0; /* Change background color on hover */
+}
+
+/* Change button appearance on press */
+QPushButton:pressed {
+    background-color: #7a7a7a; /* Change background color when pressed */
+    border: 2px solid #636363; /* Change border color when pressed */
+    transform: scale(0.95); /* Apply a scale transform when pressed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust the values for the shadow effect on press */
+}
+</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="font">
+            <font>
+             <family>Cascadia Code</family>
+             <pointsize>11</pointsize>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(255, 255, 255, 0.8); /* Set a white transparent background color */
+    border: 3px solid #000000; /* Set a black border color and thickness */
+    color: black; /* Set the text color to black */
+    padding: 15px 25px; /* Increase padding around the text */
+    font-weight: normal; /* Make the font normal */
+
+    /* Set border-radius for curvature */
+    border-radius: 20px; /* Increase the curvature */
+
+    /* Add a transition for a smooth animation */
+    transition: background-color 0.5s, border 0.5s, transform 0.5s, box-shadow 0.5s;
+}
+
+/* Add a subtle box shadow for a classy look */
+QPushButton:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase the shadow effect */
+}
+
+/* Change button appearance on hover */
+QPushButton:hover {
+    background-color: rgba(200, 200, 200, 0.8); /* Change background color on hover with transparency */
+}
+
+/* Change button appearance on press */
+QPushButton:pressed {
+    background-color: rgba(180, 180, 180, 0.8); /* Change background color when pressed with transparency */
+    border: 3px solid #000000; /* Keep the same border color when pressed */
+    transform: scale(0.9); /* Apply a different scale transform when pressed */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Adjust the values for the shadow effect on press */
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Sign Up</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
